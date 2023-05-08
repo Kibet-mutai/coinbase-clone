@@ -5,8 +5,8 @@ import { MainLogo } from "./MainLogo";
 export const MainSect = () => {
   return (
     <div className="py-10 flex flex-col">
-      <div className="flex flex-row items-center py-32 px-20">
-        <div className="flex flex-col gap-y-6 items-start">
+      <div className="grid grid-cols-4 items-center py-32 px-28">
+        <div className="col-span-2 flex flex-col gap-y-6">
           <div className="flex gap-2 items-center text-[#0052FF]">
             <FaBitcoin className="cursor-pointer w-6 h-6" />
             <a href="#" className="font-medium  hover:underline">
@@ -14,7 +14,7 @@ export const MainSect = () => {
             </a>
             <BsArrowRight className="cursor-pointer font-medium text-xl" />
           </div>
-          <h1 className="text-6xl font-bold max-w-[425px]">
+          <h1 className="text-6xl font-medium max-w-[425px]">
             Jump start your crypto portfolio
           </h1>
           <p className="font-medium text-xl head-text">
@@ -36,8 +36,13 @@ export const MainSect = () => {
             </button>
           </div>
         </div>
-        <div className=" object-contain">
-          <MainLogo />
+        <div className="col-span-2 ">
+          <img
+            src="/images/freeMoney-1.5.webp"
+            className="w-[100%] h-[534%] object-contain"
+            alt="logo"
+          />
+          {/* <MainLogo /> */}
         </div>
       </div>
       <div className="flex bg-[#0A0B0D] justify-center items-center gap-x-8 py-4">

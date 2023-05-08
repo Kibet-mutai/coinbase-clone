@@ -5,46 +5,25 @@ export const Navbar = () => {
     <div className="fixed z-10 shadow-sm bg-white border-b items-center py-[11px] px-5 flex justify-around w-full min-h-[67px]">
       <Logo />
       <div className=" font-medium text-sm flex gap-8 ">
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Explore
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Web3
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Learn
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Individuals
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Businesses
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Developers
         </a>
-        <a
-          href="#"
-          className="hover:border-b-[#0052FF] hover:border-b-4 duration-300"
-        >
+        <a href="#" className="hover:underline">
           Company
         </a>
       </div>
