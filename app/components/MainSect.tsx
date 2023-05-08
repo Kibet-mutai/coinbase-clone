@@ -17,7 +17,7 @@ export const MainSect = () => {
           <h1 className="md:text-6xl text-4xl font-medium sm:max-w-[425px]">
             Jump start your crypto portfolio
           </h1>
-          <p className="font-medium text-xl md:font-[inter] font-[Fira]">
+          <p className="font-medium text-xl md:font-[ubuntu] font-[Fira]">
             Coinbase is the easiest place to buy and sell cryptocurrency. Sign
             up and get started today.
           </p>
