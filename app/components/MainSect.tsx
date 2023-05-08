@@ -37,12 +37,7 @@ export const MainSect = () => {
           </div>
         </div>
         <div className="col-span-2 ">
-          <img
-            src="/images/freeMoney-1.5.webp"
-            className="w-[100%] h-[534%] object-contain"
-            alt="logo"
-          />
-          {/* <MainLogo /> */}
+          <MainLogo />
         </div>
       </div>
       <div className="flex bg-[#0A0B0D] justify-center items-center gap-x-8 py-4">
