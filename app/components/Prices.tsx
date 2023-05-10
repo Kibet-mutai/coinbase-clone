@@ -243,7 +243,7 @@ const Prices = () => {
                 </div>
               </Link>
             </th>
-            <td className="pl-16 pr-4 pt-4 flex font-light flex-col text-end">
+            <td className="pl-16 pr-4 pt-4 flex font-light flex-col lg:text-end text-right">
               <span>KES 2810.89</span>
               <p className=" text-end text-red-600">-3.06%</p>
             </td>

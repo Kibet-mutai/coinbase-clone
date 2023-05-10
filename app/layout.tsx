@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { Navbar } from "./components/navbar/Navbar";
 import { MainSect } from "./components/MainSect";
 import Prices from "./components/Prices";
+import { Referral } from "./components/Referral";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({
         <Navbar />
         <MainSect />
         <Prices />
+        <Referral />
         {children}
       </body>
     </html>
