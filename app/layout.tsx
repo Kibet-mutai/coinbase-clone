@@ -5,6 +5,7 @@ import { MainSect } from "./components/MainSect";
 import Prices from "./components/Prices";
 import { Referral } from "./components/Referral";
 import { FeaturesSect } from "./components/FeaturesSect";
+import { TestimonialsSect } from "./components/TestimonialsSect";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         <Prices />
         <Referral />
         <FeaturesSect />
+        <TestimonialsSect />
         {children}
       </body>
     </html>

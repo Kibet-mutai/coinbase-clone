@@ -18,7 +18,7 @@ export const FeaturesSect = () => {
           start trading
         </p>
       </div>
-      <div className="lg:grid grid-cols-6 lg:space-x-8 spcae-y-8 flex flex-col-reverse lg:px-16 px-4 py-8">
+      <div className="lg:grid grid-cols-6 lg:space-x-8 spcae-y-8 flex flex-col-reverse lg:px-16 px-4 py-8 border-b">
         <div className="lg:col-span-2 flex flex-col space-y-8 items-center">
           <div className="flex items-center space-x-6">
             <div className="bg-white rounded-full items-center p-4 shadow-md">
