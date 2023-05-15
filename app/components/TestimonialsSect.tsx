@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { CgChevronRight } from "react-icons/cg";
+import { Instruction } from "./Instruction";
 
 export const TestimonialsSect = () => {
   return (
@@ -13,7 +14,7 @@ export const TestimonialsSect = () => {
             Here are a few reasons why you should choose Coinbase
           </p>
         </div>
-        <div className="grid grid-cols-3 space-x-4 items-center px-10 py-8">
+        <div className="lg:grid grid-cols-3 lg:space-x-4 flex flex-col space-y-4 items-center lg:px-10 px-16 py-8">
           <div className="col-span-1 flex flex-col items-center text-center px-4">
             <svg
               width="64"
@@ -138,7 +139,7 @@ export const TestimonialsSect = () => {
           </div>
         </div>
       </div>
-      <div className="mt-10 py-16 bg-[#0052FF] text-white items-center flex justify-around">
+      <div className="mt-10 py-16 bg-[#0052FF] text-white items-center flex md:flex-row flex-col space-y-3 justify-around">
         <div className="flex flex-col space-y-4">
           <span className="font-medium text-6xl">$145B</span>
           <p className="text-gray-400">Quarterly volume traded</p>
@@ -152,6 +153,7 @@ export const TestimonialsSect = () => {
           <p className="text-gray-400">Assest on the platform</p>
         </div>
       </div>
+      <Instruction />
     </>
   );
 };
