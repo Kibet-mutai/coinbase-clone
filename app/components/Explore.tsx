@@ -7,12 +7,12 @@ export const Explore = () => {
   return (
     <>
       <div className="flex h-[460px] w-[100%]">
-        <div className="flex flex-col py-6 px-8 bg-[#F5F8FF] justify-center">
+        <div className="flex flex-col py-6 px-8 lg:bg-[#F5F8FF] bg-[#113355] justify-center items-center">
           <div className="px-6">
-            <h1 className="font-medium text-3xl">
+            <h1 className="font-medium text-3xl lg:text-black text-white">
               Earn up to $28 worth of crypto
             </h1>
-            <p>
+            <p className="lg:text-black text-white">
               Discover how specific cryptocurrencies work — and get a bit of
               each crypto to try out for yourself.
             </p>
@@ -24,7 +24,7 @@ export const Explore = () => {
           </div>
         </div>
         <div
-          className="py-4 bg-cover bg-no-repeat bg-center w-full h-full"
+          className="lg:flex hidden py-4 bg-cover bg-no-repeat bg-center w-full h-full"
           style={{ backgroundImage: `url(${bgImage.url})` }}
         ></div>
       </div>

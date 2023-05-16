@@ -2,14 +2,14 @@ export const Instruction = () => {
   return (
     <div className="py-12">
       <div className="items-center flex flex-col space-y-4">
-        <div className="text-left">
+        <div className="md:text-left text-center">
           <h1 className="font-bold text-4xl">Get started in a few minutes</h1>
           <p className="text-gray-400">
             Coinbase supports a variety of the most popular digital currencies.
           </p>
         </div>
-        <div className="flex justify-evenly items-center pt-10">
-          <div className="flex flex-col items-center">
+        <div className="flex md:flex-row flex-col space-y-6 justify-evenly items-center pt-10 space-x-4">
+          <div className="flex flex-col items-center text-center">
             <svg
               width="64"
               height="60"
@@ -30,10 +30,10 @@ export const Instruction = () => {
               <path d="M33 42H31V54H33V42Z" fill="white"></path>
               <path d="M38 49V47H26V49H38Z" fill="white"></path>
             </svg>
-            <p className="font-bold text-xl">Create an account</p>
+            <p className="font-bold text-xl px-2">Create an account</p>
           </div>
-          <span className="w-40 border-t px-4 border-gray-500"></span>
-          <div className="flex flex-col items-center">
+          <span className="lg:flex hidden w-40 border-t px-4 border-gray-500"></span>
+          <div className="flex flex-col items-center text-center">
             <svg
               width="65"
               height="56"
@@ -60,10 +60,10 @@ export const Instruction = () => {
                 ></path>
               </g>
             </svg>
-            <p className="font-bold text-xl">Link your bank account</p>
+            <p className="font-bold text-xl px-2">Link your bank account</p>
           </div>
-          <span className="w-40 border-t px-4 border-gray-500"></span>
-          <div className="flex flex-col items-center">
+          <span className="lg:flex hidden w-40 border-t px-4 border-gray-500"></span>
+          <div className="flex flex-col items-center text-center">
             <svg
               width="61"
               height="56"
@@ -93,7 +93,7 @@ export const Instruction = () => {
                 <path d="M52 27V25H44V27H52Z" fill="white"></path>
               </g>
             </svg>
-            <p className="font-bold text-xl">Start buying & selling</p>
+            <p className="font-bold text-xl px-2">Start buying & selling</p>
           </div>
         </div>
       </div>
