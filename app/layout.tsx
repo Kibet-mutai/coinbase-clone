@@ -7,6 +7,7 @@ import { Referral } from "./components/Referral";
 import { FeaturesSect } from "./components/FeaturesSect";
 import { TestimonialsSect } from "./components/TestimonialsSect";
 import { Explore } from "./components/Explore";
+import { Footer } from "./components/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -30,6 +31,7 @@ export default function RootLayout({
         <FeaturesSect />
         <TestimonialsSect />
         <Explore />
+        <Footer />
         {children}
       </body>
     </html>
